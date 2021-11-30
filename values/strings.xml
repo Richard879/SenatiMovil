@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SenatiMovil</string>
+    <string name="etUserLogin">Username</string>
+    <string name="etPassLogin">Password</string>
+    <string name="btLogin">LOGIN</string>
+    <string name="tvRegisterLogin">REGISTER HERE.!</string>
+    <string name="tvRegister">REGISTER</string>
+    <string name="tvDescripcion">Development By Senati</string>
+    <string name="ivLogo">img_logo</string>
+    <string name="etUserRegister">Username *</string>
+    <string name="etPassRegister">Password *</string>
+    <string name="etEmailRegister">Email *</string>
+    <string name="etBackRegister">LOGIN</string>
+    <string name="menuHomeFragment">Home</string>
+    <string name="menuCourseFragment">Course</string>
+    <string name="menuMapFragment">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Content Home Fragment</string>
+    <string name="course_fragment">Content Course Fragment</string>
+    <string name="map_fragment">Content Map Fragment</string>
+</resources>

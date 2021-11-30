@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorLayoutLogin">
+
+        <ImageView
+            android:id="@+id/ivLogoRegister"
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_margin="60dp"
+            android:src="@drawable/logo_senati"
+            android:contentDescription="@string/ivLogo"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etUserRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etUserRegister"
+        android:autofillHints="@string/etUserRegister"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/vector_person_reg"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etPassRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etPassRegister"
+        android:autofillHints="@string/etPassRegister"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/vector_lock_reg"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/etEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etEmailRegister"
+        android:autofillHints="@string/etEmailRegister"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/vector_email_reg"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress"
+        />
+
+    <Button
+        android:id="@+id/btRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvRegister"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_button_register"
+        android:textColor="@color/colorWhite"
+        />
+
+    <TextView
+        android:id="@+id/tvBackRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="changeActivity"
+        android:text="@string/etBackRegister"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/tvDescripcion"/>
+
+</LinearLayout>

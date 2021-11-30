@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_navigation"
+    app:startDestination="@id/menuHomeFragment">
+
+    <fragment
+        android:id="@+id/menuHomeFragment"
+        android:name="com.senati.senatimovil.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_courseFragment"
+            app:destination="@id/menuCourseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuCourseFragment"
+        android:name="com.senati.senatimovil.fragments.CourseFragment"
+        android:label="fragment_course"
+        tools:layout="@layout/fragment_course" >
+        <action
+            android:id="@+id/action_courseFragment_to_mapFragment"
+            app:destination="@id/menuMapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuMapFragment"
+        android:name="com.senati.senatimovil.fragments.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+</navigation>

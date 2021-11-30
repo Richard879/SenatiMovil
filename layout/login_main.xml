@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorLayoutLogin">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:layout_margin="60dp"
+            android:src="@drawable/logo_senati"
+            android:contentDescription="@string/ivLogo"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etUserLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etUserLogin"
+        android:autofillHints="@string/etUserLogin"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/vector_person"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etPassLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etPassLogin"
+        android:autofillHints="@string/etPassLogin"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/vector_lock"
+        android:drawablePadding="10dp"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btLogin"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape_button_login"
+        android:textColor="@color/colorWhite"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorLayoutLogin"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:onClick="changeActivity"
+        android:text="@string/tvRegisterLogin"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonRegister"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/tvDescripcion"/>
+
+</LinearLayout>
