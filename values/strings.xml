@@ -28,4 +28,7 @@
     <string name="inicio_frag_tv_por_que_resp">
         Por segundo año consecutivo, la Escuela de Tecnologías de la Información de SENATI (ETI) recibió el galardón de ASC Premier de la transnacional Cisco, por el éxito continuo en la implementación del programa académico Cisco Networking Academy.
     </string>
+
+    <string name="noticia_imagen_1">noticia_imagen_1</string>
+    <string name="noticia_imagen_2">noticia_imagen_2</string>
 </resources>
