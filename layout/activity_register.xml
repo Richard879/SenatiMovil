@@ -36,6 +36,7 @@
         android:drawablePadding="10dp"
         android:textSize="16sp"
         android:inputType="text"
+        android:fontFamily="@font/open_sans_bold"
         />
 
     <EditText
@@ -49,6 +50,7 @@
         android:drawablePadding="10dp"
         android:textSize="16sp"
         android:inputType="textPassword"
+        android:fontFamily="@font/open_sans_bold"
         />
 
     <EditText
@@ -62,6 +64,7 @@
         android:drawablePadding="10dp"
         android:textSize="16sp"
         android:inputType="textEmailAddress"
+        android:fontFamily="@font/open_sans_bold"
         />
 
     <Button
@@ -70,13 +73,14 @@
         android:layout_height="wrap_content"
         android:text="@string/tvRegister"
         android:textStyle="bold"
-        android:textSize="16sp"
+        android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/shape_button_register"
         android:textColor="@color/colorWhite"
+        android:fontFamily="@font/open_sans_bold"
         />
 
     <TextView
@@ -87,8 +91,9 @@
         android:gravity="center"
         android:onClick="changeActivity"
         android:text="@string/etBackRegister"
-        android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/open_sans_bold"/>
 
     <Space
         android:layout_width="match_parent"
@@ -103,6 +108,7 @@
         android:textColor="@color/colorAccent"
         android:textStyle="bold"
         android:textSize="16sp"
-        android:text="@string/tvDescripcion"/>
+        android:text="@string/tvDescripcion"
+        android:fontFamily="@font/open_sans_bold"/>
 
 </LinearLayout>
