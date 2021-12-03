@@ -78,7 +78,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:onClick="changeActivity"
-        android:text="@string/tvRegisterLogin"
+        android:text="@string/tvRegister"
         android:textSize="18sp"
         android:textStyle="bold"
         android:textColor="@color/colorButtonRegister"

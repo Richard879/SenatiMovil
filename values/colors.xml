@@ -4,8 +4,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
-    <color name="colorButtonLogin">#8BC34A</color>
+    <color name="colorButtonLogin">#79B632</color>
     <color name="colorLayoutLogin">#001CB7</color>
     <color name="colorSplahScreen">#031280</color>
     <color name="colorButtonRegister">#1E303A</color>
+    <color name="colorTextTitle">#253847</color>
+    <color name="colorTextSubTtile">#1E303A</color>
 </resources>

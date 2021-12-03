@@ -3,20 +3,29 @@
     <string name="etUserLogin">Username</string>
     <string name="etPassLogin">Password</string>
     <string name="btLogin">LOGIN</string>
-    <string name="tvRegisterLogin">REGISTER HERE.!</string>
-    <string name="tvRegister">REGISTER</string>
-    <string name="tvDescripcion">Development By Senati</string>
+    <string name="tvRegister">REGISTER HERE !</string>
+    <string name="btRegister">REGISTER</string>
+    <string name="tvDescripcion">Development By SENATI</string>
     <string name="ivLogo">img_logo</string>
     <string name="etUserRegister">Username *</string>
     <string name="etPassRegister">Password *</string>
     <string name="etEmailRegister">Email *</string>
     <string name="etBackRegister">LOGIN</string>
     <string name="menuHomeFragment">Home</string>
-    <string name="menuCourseFragment">Course</string>
+    <string name="menuCourseFragment">Courses</string>
     <string name="menuMapFragment">Map</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="home_fragment">Content Home Fragment</string>
-    <string name="course_fragment">Content Course Fragment</string>
-    <string name="map_fragment">Content Map Fragment</string>
+    <string name="home_fragment">Hello Home fragment</string>
+    <string name="course_fragment">Hello Course fragment</string>
+    <string name="map_fragment">Hello Map fragment</string>
+
+    <string name="inicio_frag_tv_que_es">Repensando la Educación Tecnológica</string>
+    <string name="inicio_frag_tv_que_es_resp">
+        El Minedu organizó el foro virtual “Repensando la Educación Tecnológica: El Mañana es Hoy”, donde nuestro Gerente Académico, Jorge Chávez Escobar, dio alcances sobre cómo SENATI está dando el gran salto hacia la virtualización de su oferta académica apoyado en plataformas tecnológicas de primer nivel.
+    </string>
+    <string name="inicio_frag_tv_por_que">SENATI recibe galardón de la Transaccional de tecnología CISCO</string>
+    <string name="inicio_frag_tv_por_que_resp">
+        Por segundo año consecutivo, la Escuela de Tecnologías de la Información de SENATI (ETI) recibió el galardón de ASC Premier de la transnacional Cisco, por el éxito continuo en la implementación del programa académico Cisco Networking Academy.
+    </string>
 </resources>

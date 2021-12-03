@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/menuHomeFragment"
-        android:title="@string/menuHomeFragment"
-        android:icon="@drawable/vector_menu_home"/>
+            android:title="@string/menuHomeFragment"
+            android:icon="@drawable/vector_menu_home" />
 
     <item android:id="@+id/menuCourseFragment"
-        android:icon="@drawable/vector_menu_course"
-        android:title="@string/menuCourseFragment"/>
+        android:title="@string/menuCourseFragment"
+        android:icon="@drawable/vector_menu_course" />
 
     <item android:id="@+id/menuMapFragment"
-        android:icon="@drawable/vector_menu_map"
-        android:title="@string/menuMapFragment"/>
+        android:title="@string/menuMapFragment"
+        android:icon="@drawable/vector_menu_map" />
 
 </menu>
