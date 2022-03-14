@@ -59,19 +59,18 @@
         android:id="@+id/btLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btLogin"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
+        android:layout_below="@+id/etPassLogin"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:layout_marginBottom="10dp"
-        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
         android:background="@drawable/shape_button_login"
-        android:textColor="@color/colorWhite"
         android:fontFamily="@font/open_sans_bold"
-        android:layout_below="@+id/etPassLogin"
-        />
+        android:text="@string/btLogin"
+        android:textColor="@color/colorWhite"
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
     <View
         android:id="@+id/vwLinea"
@@ -88,15 +87,15 @@
         android:id="@+id/tvRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/vwLinea"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/open_sans_bold"
         android:gravity="center"
         android:onClick="changeActivity"
         android:text="@string/tvRegister"
-        android:textSize="18sp"
-        android:textStyle="bold"
         android:textColor="@color/colorButtonRegister"
-        android:fontFamily="@font/open_sans_bold"
-        android:layout_below="@+id/vwLinea"/>
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Space
         android:layout_width="match_parent"
@@ -106,27 +105,30 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_margin="14dp"
-        android:textColor="@color/colorAccent"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:text="@string/tvDescripcion"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
         android:fontFamily="@font/open_sans_bold"
-        android:layout_alignParentBottom="true"/>
+        android:gravity="center"
+        android:text="@string/tvDescripcion"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:padding="20dp">
 
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleLarge"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:indeterminateTint="@color/colorLayoutLogin"/>
+            android:indeterminateTint="@color/colorLayoutLogin" />
     </RelativeLayout>
 
 </RelativeLayout>
